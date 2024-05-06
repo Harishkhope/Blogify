@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import { UserContext } from '../context/UserContext'
 import axios from 'axios'
 import { URL } from '../url'

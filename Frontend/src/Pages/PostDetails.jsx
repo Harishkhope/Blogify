@@ -1,12 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
-import Comment from '../Components/Comment';
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import Comment from '../components/Comment';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import { URL, IF } from '../url';
 import { UserContext } from '../context/UserContext';
-import Loader from '../Components/Loader';
+import Loader from '../components/Loader';
 // import {BiEdit} from 'react-icons/bi'
 // import {MdDelete} from 'react-icons/md'
 
